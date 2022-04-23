@@ -1,0 +1,254 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Infraestructure\\CheckIn.Infraestructure.csproj": {}
+  },
+  "projects": {
+    "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Application\\CheckIn.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Application\\CheckIn.Application.csproj",
+        "projectName": "CheckIn.Application",
+        "projectPath": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Application\\CheckIn.Application.csproj",
+        "packagesPath": "C:\\Users\\Juan Edgar\\.nuget\\packages\\",
+        "outputPath": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Juan Edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Domain\\CheckIn.Domain.csproj": {
+                "projectPath": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Domain\\CheckIn.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Domain\\CheckIn.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Domain\\CheckIn.Domain.csproj",
+        "projectName": "CheckIn.Domain",
+        "projectPath": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Domain\\CheckIn.Domain.csproj",
+        "packagesPath": "C:\\Users\\Juan Edgar\\.nuget\\packages\\",
+        "outputPath": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Juan Edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\ShareKernel\\ShareKernel.csproj": {
+                "projectPath": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\ShareKernel\\ShareKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Infraestructure\\CheckIn.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Infraestructure\\CheckIn.Infraestructure.csproj",
+        "projectName": "CheckIn.Infraestructure",
+        "projectPath": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Infraestructure\\CheckIn.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\Juan Edgar\\.nuget\\packages\\",
+        "outputPath": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Juan Edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Application\\CheckIn.Application.csproj": {
+                "projectPath": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\CheckIn.Application\\CheckIn.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\ShareKernel\\ShareKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\ShareKernel\\ShareKernel.csproj",
+        "projectName": "ShareKernel",
+        "projectPath": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\ShareKernel\\ShareKernel.csproj",
+        "packagesPath": "C:\\Users\\Juan Edgar\\.nuget\\packages\\",
+        "outputPath": "F:\\Mis Documentos\\DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS\\Modulo 2 - Desarrollo guiado por el Dominio y Arquitectura Limpia\\tarea4\\ms-checkin-main\\ShareKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Juan Edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
