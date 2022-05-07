@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9Jb2uc9Cy3ruxlsT4V1IuLRGtQWDJNNKsw5fny+cyjXZX4FIXiBu4nJNQO0BMusS2rfCIZY6Umykv6GhY0PcFg==",
+  "success": true,
+  "projectFilePath": "F:\\TrabajoFinal\\ms-chekin-main\\ShareKernel\\ShareKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Juan Edgar\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Juan Edgar\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

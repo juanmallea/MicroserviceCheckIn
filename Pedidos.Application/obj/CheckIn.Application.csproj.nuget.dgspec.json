@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\TrabajoFinal\\ms-chekin-main\\Pedidos.Application\\CheckIn.Application.csproj": {}
+  },
+  "projects": {
+    "F:\\TrabajoFinal\\ms-chekin-main\\Pedidos.Application\\CheckIn.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\TrabajoFinal\\ms-chekin-main\\Pedidos.Application\\CheckIn.Application.csproj",
+        "projectName": "CheckIn.Application",
+        "projectPath": "F:\\TrabajoFinal\\ms-chekin-main\\Pedidos.Application\\CheckIn.Application.csproj",
+        "packagesPath": "C:\\Users\\Juan Edgar\\.nuget\\packages\\",
+        "outputPath": "F:\\TrabajoFinal\\ms-chekin-main\\Pedidos.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Juan Edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\TrabajoFinal\\ms-chekin-main\\Pedidos.Domain\\CheckIn.Domain.csproj": {
+                "projectPath": "F:\\TrabajoFinal\\ms-chekin-main\\Pedidos.Domain\\CheckIn.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\TrabajoFinal\\ms-chekin-main\\Pedidos.Domain\\CheckIn.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\TrabajoFinal\\ms-chekin-main\\Pedidos.Domain\\CheckIn.Domain.csproj",
+        "projectName": "CheckIn.Domain",
+        "projectPath": "F:\\TrabajoFinal\\ms-chekin-main\\Pedidos.Domain\\CheckIn.Domain.csproj",
+        "packagesPath": "C:\\Users\\Juan Edgar\\.nuget\\packages\\",
+        "outputPath": "F:\\TrabajoFinal\\ms-chekin-main\\Pedidos.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Juan Edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\TrabajoFinal\\ms-chekin-main\\ShareKernel\\ShareKernel.csproj": {
+                "projectPath": "F:\\TrabajoFinal\\ms-chekin-main\\ShareKernel\\ShareKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\TrabajoFinal\\ms-chekin-main\\ShareKernel\\ShareKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\TrabajoFinal\\ms-chekin-main\\ShareKernel\\ShareKernel.csproj",
+        "projectName": "ShareKernel",
+        "projectPath": "F:\\TrabajoFinal\\ms-chekin-main\\ShareKernel\\ShareKernel.csproj",
+        "packagesPath": "C:\\Users\\Juan Edgar\\.nuget\\packages\\",
+        "outputPath": "F:\\TrabajoFinal\\ms-chekin-main\\ShareKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Juan Edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

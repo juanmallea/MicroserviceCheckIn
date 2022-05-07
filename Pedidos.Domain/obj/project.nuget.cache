@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ko7VcN+EYBGaUU/OGT4er6g2XQoCIunU6uw4C5enzn3+3Ohxfks65RIQKTT0Afs7xZRqetgBaH99EHNhBVwniw==",
+  "success": true,
+  "projectFilePath": "F:\\TrabajoFinal\\ms-chekin-main\\Pedidos.Domain\\CheckIn.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Juan Edgar\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Juan Edgar\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

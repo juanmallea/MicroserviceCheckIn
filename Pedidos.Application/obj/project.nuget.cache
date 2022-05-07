@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "sI1s1wO4g4GIY03YJndI1kfnCgDIregKnkG3vYZB6HuNAZVet80TrgVUmF1W2i7iEIAhyFOkKK8KjcFffdY6HQ==",
+  "success": true,
+  "projectFilePath": "F:\\TrabajoFinal\\ms-chekin-main\\Pedidos.Application\\CheckIn.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Juan Edgar\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Juan Edgar\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Juan Edgar\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\Juan Edgar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Juan Edgar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\Juan Edgar\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Juan Edgar\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
