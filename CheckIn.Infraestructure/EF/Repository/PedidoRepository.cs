@@ -1,33 +1,35 @@
-﻿using CheckIn.Domain.Model.Pedidos;
+﻿using Microsoft.EntityFrameworkCore;
+using CheckIn.Domain.Model.Pedidos;
 using CheckIn.Domain.Repositories;
-using ShareKernel.Core;
+using CheckIn.Infraestructure.EF.Contexts;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CheckIn.Infraestructure.EF.Repository
 {
     public class PedidoRepository : IPedidoRepository
     {
-        public Task CreateAsync(Pedido obj)
-        {
-            Console.WriteLine($"Insertando el pedido { obj.NroPedido }");
+        public readonly DbSet<Pedido> _pedidos;
 
-            return Task.CompletedTask;
+        public PedidoRepository(WriteDbContext context)
+        {
+            _pedidos = context.Pedido;
         }
 
-        public Task<Pedido> FindByIdAsync(Guid id)
+        public async Task CreateAsync(Pedido obj)
         {
-            Console.WriteLine($"Retornando el pedido { id }");
+            await _pedidos.AddAsync(obj);
+        }
 
-            return null;
+        public async Task<Pedido> FindByIdAsync(Guid id)
+        {
+            return await _pedidos.Include("_detalle")
+                    .SingleAsync(x => x.Id == id);
         }
 
         public Task UpdateAsync(Pedido obj)
         {
-            Console.WriteLine($"Actualizando el pedido { obj.NroPedido }");
+            _pedidos.Update(obj);
 
             return Task.CompletedTask;
         }

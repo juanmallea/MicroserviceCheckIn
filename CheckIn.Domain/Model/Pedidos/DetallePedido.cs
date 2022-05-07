@@ -1,12 +1,7 @@
-﻿using CheckIn.Domain.Model.Pedidos.ValueObjects;
-using CheckIn.Domain.Model.ValueObjects;
+﻿using CheckIn.Domain.Model.ValueObjects;
 using CheckIn.Domain.ValueObjects;
 using ShareKernel.Core;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CheckIn.Domain.Model.Pedidos
 {
@@ -29,6 +24,8 @@ namespace CheckIn.Domain.Model.Pedidos
             Precio = precio;
             SubTotal = new PrecioValue(precio * cantidad);
         }
+
+        private DetallePedido() { }
 
         internal void ModificarPedido(int cantidad, decimal precio)
         {

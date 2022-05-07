@@ -1,4 +1,5 @@
 ﻿using CheckIn.Domain.Event;
+using CheckIn.Domain.Model.CheckIns;
 using CheckIn.Domain.Model.Pedidos.ValueObjects;
 using CheckIn.Domain.ValueObjects;
 using ShareKernel.Core;
@@ -6,8 +7,6 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CheckIn.Domain.Model.Pedidos
 {
@@ -59,6 +58,11 @@ namespace CheckIn.Domain.Model.Pedidos
         {
             var evento = new PedidoCreado(Id, NroPedido);
             AddDomainEvent(evento);
+        }
+
+        public static implicit operator Pedido(Check v)
+        {
+            throw new NotImplementedException();
         }
     }
 }

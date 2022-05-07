@@ -1,9 +1,4 @@
 ﻿using ShareKernel.Core;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CheckIn.Domain.Model.ValueObjects
 {
@@ -12,7 +7,7 @@ namespace CheckIn.Domain.Model.ValueObjects
         public int Value { get; }
         public CantidadValue(int value)
         {
-            if(value <= 0)
+            if(value < 0)
             {
                 throw new BussinessRuleValidationException("La cantidad no puede ser negativa o cero");
             }

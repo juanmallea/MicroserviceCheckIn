@@ -1,12 +1,7 @@
-﻿using CheckIn.Domain.Model.Pedidos;
-using CheckIn.Domain.Model.ValueObjects;
+﻿using CheckIn.Domain.Model.ValueObjects;
 using CheckIn.Domain.ValueObjects;
 using ShareKernel.Core;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CheckIn.Domain.Model.Productos
 {
@@ -18,12 +13,28 @@ namespace CheckIn.Domain.Model.Productos
 
         public CantidadValue StockActual { get; private set; }
 
+        private Producto()
+        {
+            PrecioVenta = 0;
+            StockActual = 0;
+        }
+
         public Producto(string nombre, PrecioValue precioVenta, CantidadValue stockActual)
         {
             Id = Guid.NewGuid();
             Nombre = nombre;
             PrecioVenta = precioVenta;
             StockActual = stockActual;
+        }
+
+        public void ReducirStock(CantidadValue cantidad)
+        {
+            int stockResultante = StockActual - cantidad;
+            if (stockResultante < 0)
+            {
+                throw new BussinessRuleValidationException("La cantidad de stock actual es insuficiente");
+            }
+            StockActual = stockResultante;
         }
 
     }

@@ -1,13 +1,8 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using MediatR;
+using Microsoft.Extensions.DependencyInjection;
 using CheckIn.Application.Services;
-using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using CheckIn.Domain.Factories;
+using System.Reflection;
 
 namespace CheckIn.Application
 {

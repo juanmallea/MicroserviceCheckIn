@@ -1,12 +1,12 @@
-﻿using CheckIn.Domain.Model.Pedidos;
-using CheckIn.Domain.Repositories;
+﻿using Pedidos.Domain.Model.Pedidos;
+using Pedidos.Domain.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CheckIn.Infraestructure.MemoryRepository
+namespace Pedidos.Infraestructure.MemoryRepository
 {
     public class MemoryPedidoRepository : IPedidoRepository
     {
