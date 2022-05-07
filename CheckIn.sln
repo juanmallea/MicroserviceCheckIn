@@ -13,6 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckIn.Infraestructure", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckIn.WebApi", "CheckIn.WebApi\CheckIn.WebApi.csproj", "{09B2A943-10D1-4664-96CA-CA12F9D76A95}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdditionalInformation", "AdditionalInformation", "{6CDEFAE2-E86F-4172-9974-FE57BF6B77FD}"
+	ProjectSection(SolutionItems) = preProject
+		information.txt = information.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

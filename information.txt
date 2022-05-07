@@ -1,0 +1,24 @@
+
+// ****************************************************************************
+//            DIPLOMADO EN ARQUITECTURA CON MICROSERVICIOS
+// ****************************************************************************
+//     MODULO 2 – DESARROLLO DIRIGIDO POR EL DOMINIO Y ARQUITECTURA LIMPIA
+// ****************************************************************************
+
+// ****************************************************************************
+//  ALUMNO: JUAN EDGAR MALLEA MACHACA
+// ****************************************************************************
+
+
+// ****************************************************************************
+//  MICROSERVICIO: CHECK-IN
+// ****************************************************************************
+
+El check-in es el registro mediante el cuál todo pasajero confirma a la aerolínea 
+correspondiente su presencia en el vuelo elegido con anterioridad. 
+Esto le garantiza inmediatamente al viajero un Boarding Pass (Pase de Abordar).
+
+tu ubicación dentro del avión sólo puede decidirse en el momento del check-in, 
+así que para elegir el asiento deseado, será necesario o acercarse al counter 
+de la aerolínea con suficiente tiempo de anticipación o mejor aún realizar el 
+check-in en línea desde 48 horas antes de la salida del vuelo.
